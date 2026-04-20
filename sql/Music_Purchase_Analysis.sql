@@ -1,7 +1,5 @@
-Use [AudioVerse DB]
 
 --- Customer Purchase Pattern in Specific countries
-
 Select
 	concat(C.firstname,' ', C.lastname) CustomerNames,
 	Country,
@@ -16,7 +14,6 @@ group by
 
 
 --- Artist revenue in specific months
-
 Select
 		A.Name ArtistNames,
 		Al.Title AlbumTitle,
@@ -45,7 +42,6 @@ Select
 
 
 --- Categorising Order Quantity by Case
-
 Select
 	concat(C.firstname,' ', C.lastname) CustomerNames,
 	Sum(Il.Quantity) OrderQTY,
@@ -65,7 +61,6 @@ Group by
 
 
 --- Specific Countries Revenue
-
 Select
 	Country, 
 	datename(Weekday, invoicedate) Day_Of_Week,
