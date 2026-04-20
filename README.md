@@ -17,3 +17,7 @@ This project analyzes customer music purchase behavior across Europe and America
 ## 💡 Insights
 - Identified top revenue-generating countries
 - Discovered customer buying trends
+
+## 📸 Artist Revenue
+
+![Artist Revenue](images/artist_revenue.jpg)
